@@ -511,8 +511,9 @@ main .recent-orders a {
   main .recent-orders table {
     width: 83vw;
   }
+
   main table tbody tr td:last-child,
-  main table tbody tr td:first-child {
+  main table tbody tr th:first-child {
     display: none;
   }
 }

@@ -55,9 +55,9 @@ Orders.forEach((order) => {
           <td class = "${
             order.shipping === "Declined"
               ? "danger"
-              : order.shipping === "pending"
+              : order.shipping === "Pending"
               ? "warning"
-              : "primary"
+              : "success"
           }">${order.shipping}</td>
           <td class="primary">Details</td>
           `;
